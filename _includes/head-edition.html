@@ -1,0 +1,198 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+    <!--JavaScript-->
+    <link href="../assets/js/audio.js">
+    
+
+
+
+    
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  
+    {%- include custom-head.html -%}
+
+
+
+  <!--Font Animation-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:wght@900&family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <!--Font Playfair Display Semi-Bold-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet">
+  <!--Font fancy-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital@1&family=Gasoek+One&family=Montserrat:wght@900&family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+   
+   <!--Animation-->
+  <style id="__animation-stylesheet">
+      .animating-list {
+  animation-name: list-scroll-change;
+  animation-duration: 85.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes list-scroll-change {
+  0%, 1.6666666666666667% {
+    transform: translate3d(0, -0%, 0);
+  }
+  2.2222222222222223%, 3.8888888888888893% {
+    transform: translate3d(0, -2.2222222222222223%, 0);
+  }
+  4.444444444444445%, 6.111111111111112% {
+    transform: translate3d(0, -4.444444444444445%, 0);
+  }
+  6.666666666666667%, 8.333333333333334% {
+    transform: translate3d(0, -6.666666666666667%, 0);
+  }
+  8.88888888888889%, 10.555555555555555% {
+    transform: translate3d(0, -8.88888888888889%, 0);
+  }
+  11.11111111111111%, 12.777777777777777% {
+    transform: translate3d(0, -11.11111111111111%, 0);
+  }
+  13.333333333333332%, 14.999999999999998% {
+    transform: translate3d(0, -13.333333333333334%, 0);
+  }
+  15.555555555555554%, 17.22222222222222% {
+    transform: translate3d(0, -15.555555555555557%, 0);
+  }
+  17.777777777777775%, 19.444444444444443% {
+    transform: translate3d(0, -17.77777777777778%, 0);
+  }
+  19.999999999999996%, 21.666666666666664% {
+    transform: translate3d(0, -20%, 0);
+  }
+  22.222222222222218%, 23.888888888888886% {
+    transform: translate3d(0, -22.22222222222222%, 0);
+  }
+  24.44444444444444%, 26.111111111111107% {
+    transform: translate3d(0, -24.444444444444446%, 0);
+  }
+  26.66666666666666%, 28.33333333333333% {
+    transform: translate3d(0, -26.666666666666668%, 0);
+  }
+  28.888888888888882%, 30.55555555555555% {
+    transform: translate3d(0, -28.88888888888889%, 0);
+  }
+  31.111111111111104%, 32.77777777777777% {
+    transform: translate3d(0, -31.111111111111114%, 0);
+  }
+  33.33333333333333%, 34.99999999999999% {
+    transform: translate3d(0, -33.333333333333336%, 0);
+  }
+  35.55555555555555%, 37.222222222222214% {
+    transform: translate3d(0, -35.55555555555556%, 0);
+  }
+  37.77777777777777%, 39.444444444444436% {
+    transform: translate3d(0, -37.77777777777778%, 0);
+  }
+  39.99999999999999%, 41.66666666666666% {
+    transform: translate3d(0, -40%, 0);
+  }
+  42.222222222222214%, 43.88888888888888% {
+    transform: translate3d(0, -42.22222222222222%, 0);
+  }
+  44.444444444444436%, 46.1111111111111% {
+    transform: translate3d(0, -44.44444444444444%, 0);
+  }
+  46.66666666666666%, 48.33333333333332% {
+    transform: translate3d(0, -46.66666666666667%, 0);
+  }
+  48.88888888888888%, 50.55555555555554% {
+    transform: translate3d(0, -48.88888888888889%, 0);
+  }
+  51.1111111111111%, 52.777777777777764% {
+    transform: translate3d(0, -51.111111111111114%, 0);
+  }
+  53.33333333333332%, 54.999999999999986% {
+    transform: translate3d(0, -53.333333333333336%, 0);
+  }
+  55.55555555555554%, 57.22222222222221% {
+    transform: translate3d(0, -55.55555555555556%, 0);
+  }
+  57.777777777777764%, 59.44444444444443% {
+    transform: translate3d(0, -57.77777777777778%, 0);
+  }
+  59.999999999999986%, 61.66666666666665% {
+    transform: translate3d(0, -60%, 0);
+  }
+  62.22222222222221%, 63.88888888888887% {
+    transform: translate3d(0, -62.22222222222223%, 0);
+  }
+  64.44444444444443%, 66.1111111111111% {
+    transform: translate3d(0, -64.44444444444444%, 0);
+  }
+  66.66666666666666%, 68.33333333333333% {
+    transform: translate3d(0, -66.66666666666667%, 0);
+  }
+  68.88888888888889%, 70.55555555555556% {
+    transform: translate3d(0, -68.88888888888889%, 0);
+  }
+  71.11111111111111%, 72.77777777777779% {
+    transform: translate3d(0, -71.11111111111111%, 0);
+  }
+  73.33333333333334%, 75.00000000000001% {
+    transform: translate3d(0, -73.33333333333334%, 0);
+  }
+  75.55555555555557%, 77.22222222222224% {
+    transform: translate3d(0, -75.55555555555556%, 0);
+  }
+  77.7777777777778%, 79.44444444444447% {
+    transform: translate3d(0, -77.77777777777779%, 0);
+  }
+  80.00000000000003%, 81.6666666666667% {
+    transform: translate3d(0, -80%, 0);
+  }
+  82.22222222222226%, 83.88888888888893% {
+    transform: translate3d(0, -82.22222222222223%, 0);
+  }
+  84.44444444444449%, 86.11111111111116% {
+    transform: translate3d(0, -84.44444444444444%, 0);
+  }
+  86.66666666666671%, 88.33333333333339% {
+    transform: translate3d(0, -86.66666666666667%, 0);
+  }
+  88.88888888888894%, 90.55555555555561% {
+    transform: translate3d(0, -88.88888888888889%, 0);
+  }
+  91.11111111111117%, 92.77777777777784% {
+    transform: translate3d(0, -91.11111111111111%, 0);
+  }
+  93.3333333333334%, 95.00000000000007% {
+    transform: translate3d(0, -93.33333333333334%, 0);
+  }
+  95.55555555555563%, 97.2222222222223% {
+    transform: translate3d(0, -95.55555555555556%, 0);
+  }
+  97.77777777777786%, 99.44444444444453% {
+    transform: translate3d(0, -97.77777777777779%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+  </style>
+
+
+  </head>
+  
