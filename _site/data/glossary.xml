@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="moves.xsl"?>
+<glossary>
+    <move xml:id="b1">
+        <name type="consensus">Skip</name>
+        <description>1. Traditionally soft shoe move used primarily in ceili or beginner reels and comprised of 4 beats (and skip 2 3), a move done often in succession; two crossed steps taken by front and then back foot, then a 3rd on front foot during which the back foot skips up to bum and comes over to the front, then a 4th when the front foot hops
+            2. A 2-beat skip, “and skip” where the front foot simply steps and then hops as the back foot lifts to come up and over (also could be described as “skip hop”)</description>
+        <name type="alternate">Hop-1-2-3</name>
+        <name type="alternate">Hop-2-3</name>
+        <name type="alternate">Skip-2-3</name>
+        <name type="alternate">Promenade [step]</name>
+        <tag>Basics</tag>
+        <tag>Run</tag>
+        <tag>Transitional</tag>
+    </move>
+    <move xml:id="h2">
+        <name type="consensus">Birdie</name>
+        <description>Typically soft shoe but sometimes hard, a jump that looks like an incomplete leapover; taken off from the back foot, front leg goes forward and straight while back leg tucks up behind, landing on back foot.</description>
+        <name type="alternate">Bird</name>
+        <name type="alternate">Horse Jump</name>
+        <tag>Hop</tag>
+        <tag>Trick</tag>
+        <tag>Leap</tag>
+    </move>
+</glossary>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head-edition.html -%}
+
+  <body>
+
+
+    {%- include custom-header.html -%}
+    {%- include subnavbar.html -%}
+    
+    
+
+    
+      <div class="page-content">
+        
+        {{ content }}
+
+      </div>
+    
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

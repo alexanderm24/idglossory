@@ -1,0 +1,86 @@
+---
+layout: base
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  
+  
+  <div class="collective">
+  <div class="greeting">
+    Hello,
+    <br>
+    <div class="overflow-hidden h-11 py-0">
+      <ul class="animating-list">
+        <li>Toe-Walking.</li>
+        <li>Butt-Kicking.</li>
+        <li>Hip-Whipping.</li>
+        <li>Hop-2-3.</li>
+        <li>Switch-Leaping.</li>
+        <li>Treble-hop-back.</li>
+        <li>High-Clicking.</li>
+        <li>Up-1-2-3.</li>
+        <li>Cross keys.</li>
+        <li>Horsey.</li>
+        <li>Back-Trebling.</li>
+        <li>The Big Man Within?</li>
+        <li>Triple-Clicking.</li>
+        <li>Scissor-Kicking.</li>
+        <li>Birdie.</li>
+        <li>Riverdancer.</li>
+        <li>Hop-rock-rock.</li>
+        <li>TCRG.</li>
+        <li>Lord of the Dance.</li>
+        <li>Michael Flatley.</li>
+        <li>Drowsy Maggie.</li>
+        <li>Cut-2-3.</li>
+        <li>Top gents.</li>
+        <li>Siege of Ennis.</li>
+        <li>Promenade Step.</li>
+        <li>Anna Livia.</li>
+        <li>Planxty Davis 76.</li>
+        <li>Ankle-Twisting.</li>
+        <li>Legs-flailing-about.</li>
+        <li>Sean O'Brien.</li>
+        <li>Vanishing Lake.</li>
+        <li>Hornpipers.</li>
+        <li>Ceili enthusiasts.</li>
+        <li>Slip jiggers.</li>
+        <li>Irish Washerwomen.</li>
+        <li>Tír na nÓgs.</li>
+        <li>Heel-sliders.</li>
+        <li>Three Sea Captains.</li>
+        <li>Foot-stomping.</li>
+        <li>King of the Fairies.</li>
+        <li>Back-Clicking.</li>
+        <li>Stiff-armed.</li>
+        <li>Moon-Walking.</li>
+        <li>Quick feet.</li>
+        <li>Irish dancers.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<img src="assets/roughlogo.png" style="width:350px">
+
+
+<h3 class="book">The first-ever <br> <span style="color:white; background-color:black">comprehensive</span> <br>Irish dance glossary.</h3>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</div>

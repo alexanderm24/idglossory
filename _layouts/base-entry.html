@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head-edition.html -%}
+
+  <body>
+
+
+    {%- include custom-header.html -%}
+    
+
+    <main class="entry-content" aria-label="Content">
+      <div class="entry-wrapper">
+        {{ content }}
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
